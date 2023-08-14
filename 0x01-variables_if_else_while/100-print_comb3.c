@@ -1,62 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of two digits
+ * main - prints possible diff combinations of two digits
  * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int n, m;
+	int n, h;
 
 	for (n = 48; n <= 56; n++)
 	{
-		for (m = 49; m <= 57; m++)
+		for (h = 49; h <= 57; h++)
 		{
-			if (m > n)
+			if (h > n)
 			{
 				putchar(n);
-				putchar(m);
-				if (n != 56 || m != 57)
+				putchar(h);
+				if (n != 56 || h != 57)
 				{
 					putchar(',');
 					putchar(' ');
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
-}
-
-
-101-print_comb4.c
-
-#include <stdio.h>
-
-/**
- * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	int n, m, l;
-
-	for (n = 48; n < 58; n++)
-	{
-		for (m = 49; m < 58; m++)
-		{
-			for (l = 50; l < 58; l++)
-			{
-				if (l > m && m > n)
-				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
 		}
