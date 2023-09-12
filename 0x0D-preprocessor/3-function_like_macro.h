@@ -1,9 +1,6 @@
-#ifndef MACRO _H
-#define MACRO_H
-/**
- * File: 0-object_like_macro
- * 
- *Desc:the header file
- */
-#define SIZE 1024
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
+
+#define ABS(x) ((x) < (0) ? -(x) : (x))
+
 #endif
