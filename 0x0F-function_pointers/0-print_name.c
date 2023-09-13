@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * print_name - writes the name to ptr to function
+ * print_name - print name to ptr to func
  * @name: str to add
  * @f: ptr to function
  * Return: nothing
