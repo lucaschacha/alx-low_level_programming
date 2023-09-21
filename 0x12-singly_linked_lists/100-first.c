@@ -3,11 +3,11 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - print the sentence before the main
- * func to execute
+ * first - print a sentence before the main
+ * funct to be executed
  */
 void first(void)
 {
-	printf("You're Holberton! and yet, you don't look like one?,\n");
-	printf("Hello, Holberton!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
